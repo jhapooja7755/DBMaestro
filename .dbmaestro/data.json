@@ -10,7 +10,19 @@
             "EnvironmentId": "4416f4aa-bc61-488c-b4c3-fdf713ed161a",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": []
+            "Databases": [
+              {
+                "DatabaseId": "f14ffb14-161c-41b3-b087-1ca4af3cc823",
+                "DatabaseAliasName": "myDB1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/jhapooja7755/DB1.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
           }
         ],
         "SourceControlPathType": 0,
@@ -28,7 +40,30 @@
       "UserData": [
         {
           "UserName": "jhapooja7755",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "f14ffb14-161c-41b3-b087-1ca4af3cc823",
+              "DatabaseAliasName": "myDB1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "Localhost",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "DB1",
+                    "Password": "u/Jo2Zo7eLL3QiJ56PvJUQ=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "jhapooja7755",
+                "Password": "6qv9oIDtFAXAtMK+KLKedh7RKUg+d0Bcn5e54Gga0+L2MtgibKmkIEh+i5fQ5bTa"
+              }
+            }
+          ]
         }
       ]
     }
