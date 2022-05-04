@@ -21,6 +21,17 @@
                   "RemoteBranchName": "main",
                   "LocalBranchName": "main"
                 }
+              },
+              {
+                "DatabaseId": "836f2d20-5d52-474e-b8ac-19bf7fa3c3c8",
+                "DatabaseAliasName": "myDB2",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/jhapooja7755/DB2.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
               }
             ]
           }
@@ -54,6 +65,28 @@
                     "authType": "SqlAuthentication",
                     "userName": "sa",
                     "dbName": "DB1",
+                    "Password": "u/Jo2Zo7eLL3QiJ56PvJUQ=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "jhapooja7755",
+                "Password": "6qv9oIDtFAXAtMK+KLKedh7RKUg+d0Bcn5e54Gga0+L2MtgibKmkIEh+i5fQ5bTa"
+              }
+            },
+            {
+              "DatabaseId": "836f2d20-5d52-474e-b8ac-19bf7fa3c3c8",
+              "DatabaseAliasName": "myDB2",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "Localhost",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "DB2",
                     "Password": "u/Jo2Zo7eLL3QiJ56PvJUQ=="
                   }
                 }
