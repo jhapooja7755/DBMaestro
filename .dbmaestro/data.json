@@ -67,6 +67,17 @@
                     "dbName": "DB1",
                     "Password": "u/Jo2Zo7eLL3QiJ56PvJUQ=="
                   }
+                },
+                {
+                  "BranchName": "poojaTest",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "Localhost",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "DBNew",
+                    "Password": "u/Jo2Zo7eLL3QiJ56PvJUQ=="
+                  }
                 }
               ],
               "RepositoryCredentials": {
