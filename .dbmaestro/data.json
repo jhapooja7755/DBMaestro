@@ -78,6 +78,17 @@
                     "dbName": "DBNew",
                     "Password": "u/Jo2Zo7eLL3QiJ56PvJUQ=="
                   }
+                },
+                {
+                  "BranchName": "PoojaNew",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "Localhost",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "DBTesting",
+                    "Password": "u/Jo2Zo7eLL3QiJ56PvJUQ=="
+                  }
                 }
               ],
               "RepositoryCredentials": {
