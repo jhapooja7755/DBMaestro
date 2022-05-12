@@ -121,6 +121,31 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "7e92c5de-63b4-4a7a-9b58-3ede5e2670ec",
+        "ProjectName": "projectName",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {},
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\pooja\\OneDrive\\Documents\\projectName"
+      },
+      "UserData": [
+        {
+          "UserName": "jhapooja7755",
+          "DatabasesData": []
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
