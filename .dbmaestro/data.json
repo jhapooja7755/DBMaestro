@@ -56,6 +56,17 @@
                     "dbName": "DB1",
                     "Password": "u/Jo2Zo7eLL3QiJ56PvJUQ=="
                   }
+                },
+                {
+                  "BranchName": "newbranch",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "Localhost",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "DatabaseNew1",
+                    "Password": "u/Jo2Zo7eLL3QiJ56PvJUQ=="
+                  }
                 }
               ],
               "RepositoryCredentials": {
