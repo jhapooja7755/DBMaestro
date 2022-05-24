@@ -2,31 +2,6 @@
   "Projects": [
     {
       "GlobalData": {
-        "ProjectId": "c79327c3-9db5-406d-9b6c-cb6417ad9f35",
-        "ProjectName": "SharedProject",
-        "DBTypeName": "SQL Server",
-        "Environments": null,
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "DBConfiguration": {},
-          "NumberOfRevisionsInViewHistory": 10,
-          "NumberOfTagsInBuildOptions": 10,
-          "PreventCommitObjectWithConflict": false,
-          "UseCache": null
-        },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "C:\\Users\\pooja\\OneDrive\\Documents\\projectName"
-      },
-      "UserData": [
-        {
-          "UserName": "jhapooja7755",
-          "DatabasesData": []
-        }
-      ]
-    },
-    {
-      "GlobalData": {
         "ProjectId": "9241ea95-9d91-448a-918c-728d478b71be",
         "ProjectName": "TestingGit",
         "DBTypeName": "SQL Server",
