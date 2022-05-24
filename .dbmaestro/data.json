@@ -5,7 +5,26 @@
         "ProjectId": "6b9ce9a7-e0e8-443d-8993-6827914c68a5",
         "ProjectName": "TestingGit",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "27365c63-33e2-4f83-bbb8-d78b67048c60",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "2bfa1c6e-511a-4635-a342-c0242d055be8",
+                "DatabaseAliasName": "DatabaseTasting",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/jhapooja7755/DBnew.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -21,7 +40,30 @@
       "UserData": [
         {
           "UserName": "jhapooja7755",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "2bfa1c6e-511a-4635-a342-c0242d055be8",
+              "DatabaseAliasName": "DatabaseTasting",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "Localhost",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "DB1",
+                    "Password": "u/Jo2Zo7eLL3QiJ56PvJUQ=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "jhapooja7755",
+                "Password": "6qv9oIDtFAXAtMK+KLKedh7RKUg+d0Bcn5e54Gga0+L2MtgibKmkIEh+i5fQ5bTa"
+              }
+            }
+          ]
         }
       ]
     }
